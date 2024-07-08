@@ -136,3 +136,50 @@ body{
   height: 100%;
   margin-left: 200px;
 }
+
+.about-section{
+  width: 80%;
+  height: 500px;
+  background-color: rgb(255, 248, 243);
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+.about-content{
+width: 70%;
+height: 260px;
+background-color:white;
+border-radius: 10px;
+}
+.about-header{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: rgb(117, 117, 117);
+}
+.about-description{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 10px;
+  text-align: justify;
+  color: rgb(117, 117, 117);
+}
+.about-contact-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.contact-info-title{
+color: rgb(117, 117, 117);
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+.contact-info-des{
+  font-size: 24px;
+  columns: rgb(71, 71, 71);
+  font-weight: 700;
+}
