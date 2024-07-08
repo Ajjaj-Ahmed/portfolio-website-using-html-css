@@ -6,46 +6,133 @@
 body{
   width: 1280px;
   margin: 0 auto;
-  border: 2px solid blueviolet;
 }
 .nav-container{
   width: 100%;
   height: 600px;
   display: flex;
-  background: rgb(240, 181, 190);
+  background: rgb(255, 248, 243);
 }
-.nav-left-sec{
-  width: 15%;
-  height:100%;
-  border: 2px solid red;
+.nav-left-section{
+  width: 10%;
+  height:90%;
+  margin: 30px 0 20px 15px;
+
 }
 .nav-right-section{
-  width: 85%;
+  width: 90%;
   height:100%;
   display: flex;
   flex-direction: column;
-  border: 2px solid green;
 }
 .nav-menu-bar{
   width: 100%;
   height:20%;
-  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-content-section{
   width: 100%;
   height: 80%;
   display: flex;
-  border: 2px dashed tomato;
 }
 .portfolio-content{
   width: 40%;
   height: 100%;
-  border: 2px dashed green;
 }
 .portfolio-img{
   width: 60%;
   height: 100%;
-  border: 2px solid rgb(218, 87, 11);
+}
+
+/* nav menu bar design */
+.nav-menu{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-menu li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(71, 71, 71);
+}
+.nav-button{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 30px;
+  background: rgb(253, 110, 10);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+.nav-userName{
+  font-size: 45px;
+  font-weight: 800;
+}
+.username-char{
+  color: rgb(253, 110, 10);
 }
 
 
+/* Left side image set */
+
+.nav-left-section img{
+ height: 100%;
+}
+
+/* banner candidate data */
+.portfolio-content-data{
+  height: 70%;
+  margin: 100px 0;
+}
+.candidate-greedings{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+}
+.candidate-name{
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+  margin-top: 20px;
+}
+.candidate-description{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.candidate-download-button{
+  padding: 12px 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-right: 25px;
+  background-color: rgb(253, 110, 10);
+}
+.candidate-contact-button{
+  padding: 12px 15px;
+  color: rgb(253, 110, 10);
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid rgb(253, 110, 10);
+  border-radius: 5px;
+}
+.portfolio-img{
+  background-image: url('../images/header_bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.portfolio-candidate-img{
+  height: 100%;
+  margin-left: 200px;
+}
