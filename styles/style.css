@@ -1,64 +1,73 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   width: 1280px;
   margin: 0 auto;
 }
-.nav-container{
+
+.nav-container {
   width: 100%;
   height: 600px;
   display: flex;
   background: rgb(255, 248, 243);
 }
-.nav-left-section{
+
+.nav-left-section {
   width: 10%;
-  height:90%;
+  height: 90%;
   margin: 30px 0 20px 15px;
 
 }
-.nav-right-section{
+
+.nav-right-section {
   width: 90%;
-  height:100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
-.nav-menu-bar{
+
+.nav-menu-bar {
   width: 100%;
-  height:20%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-content-section{
+
+.nav-content-section {
   width: 100%;
   height: 80%;
   display: flex;
 }
-.portfolio-content{
+
+.portfolio-content {
   width: 40%;
   height: 100%;
 }
-.portfolio-img{
+
+.portfolio-img {
   width: 60%;
   height: 100%;
 }
 
 /* nav menu bar design */
-.nav-menu{
+.nav-menu {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.nav-menu li{
+
+.nav-menu li {
   list-style: none;
   font-size: 20px;
   font-weight: 400;
   color: rgb(71, 71, 71);
 }
-.nav-button{
+
+.nav-button {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 30px;
@@ -68,38 +77,43 @@ body{
   border-radius: 5px;
   margin-right: 50px;
 }
-.nav-userName{
+
+.nav-userName {
   font-size: 45px;
   font-weight: 800;
 }
-.username-char{
+
+.username-char {
   color: rgb(253, 110, 10);
 }
 
 
 /* Left side image set */
 
-.nav-left-section img{
- height: 100%;
+.nav-left-section img {
+  height: 100%;
 }
 
 /* banner candidate data */
-.portfolio-content-data{
+.portfolio-content-data {
   height: 70%;
   margin: 100px 0;
 }
-.candidate-greedings{
+
+.candidate-greedings {
   font-size: 40px;
   font-weight: 600;
   color: rgb(71, 71, 71);
 }
-.candidate-name{
+
+.candidate-name {
   font-size: 60px;
   font-weight: 700;
   color: rgb(24, 24, 24);
   margin-top: 20px;
 }
-.candidate-description{
+
+.candidate-description {
   font-size: 18px;
   font-weight: 400;
   color: rgb(117, 117, 117);
@@ -107,7 +121,8 @@ body{
   margin-bottom: 25px;
   text-align: justify;
 }
-.candidate-download-button{
+
+.candidate-download-button {
   padding: 12px 15px;
   color: white;
   font-size: 20px;
@@ -117,7 +132,8 @@ body{
   margin-right: 25px;
   background-color: rgb(253, 110, 10);
 }
-.candidate-contact-button{
+
+.candidate-contact-button {
   padding: 12px 15px;
   color: rgb(253, 110, 10);
   font-size: 20px;
@@ -125,19 +141,20 @@ body{
   border: 1px solid rgb(253, 110, 10);
   border-radius: 5px;
 }
-.portfolio-img{
+
+.portfolio-img {
   background-image: url('../images/header_bg.png');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.portfolio-candidate-img{
+.portfolio-candidate-img {
   height: 100%;
   margin-left: 200px;
 }
 
-.about-section{
+.about-section {
   width: 80%;
   height: 500px;
   background-color: rgb(255, 248, 243);
@@ -147,77 +164,192 @@ body{
   align-items: center;
   /* border: 2px solid green; */
 }
-.about-content{
-width: 70%;
-height: 260px;
-background-color:white;
-border-radius: 10px;
+
+.about-content {
+  width: 70%;
+  height: 260px;
+  background-color: white;
+  border-radius: 10px;
 }
-.about-header{
+
+.about-header {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
   margin-top: 10px;
   color: rgb(117, 117, 117);
 }
-.about-description{
+
+.about-description {
   font-size: 18px;
   font-weight: 400;
   margin: 30px 10px;
   text-align: justify;
   color: rgb(117, 117, 117);
 }
-.about-contact-details{
+
+.about-contact-details {
   display: flex;
   justify-content: space-between;
   margin: 0 10px;
 }
-.contact-info-title{
-color: rgb(117, 117, 117);
-text-align: center;
-font-size: 18px;
-font-weight: 700;
+
+.contact-info-title {
+  color: rgb(117, 117, 117);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
 }
-.contact-info-des{
+
+.contact-info-des {
   font-size: 24px;
   columns: rgb(71, 71, 71);
   font-weight: 700;
 }
+
 /* Quality section */
 
-.skill-section{
+.skill-section {
   width: 100%;
-  height: 500px;
-  border: 2px solid red;
+  height: 450px;
   display: flex;
   flex-direction: column;
 }
 
-.skill-headings{
+.skill-headings {
   width: 100%;
-  height: 50%;
-  border: 2px solid green;
+  height: 35%;
 }
-.details-skill{
+
+.details-skill {
   width: 100%;
-  height: 50%;
-  border: 2px solid blue;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.skill-box{
+
+.skill-box {
   width: 80%;
-  margin: 100px auto;
+  margin: 20px auto;
 }
-.skill-title{
+
+.skill-title {
   font-size: 30px;
   font-weight: 700;
   color: rgb(24, 24, 24);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-.skill-description{
+
+.skill-description {
   font-size: 18px;
   font-weight: 400;
   color: rgb(117, 117, 117);
   text-align: center;
+}
 
+.skill-segment {
+  width: 20%;
+  padding: 30px;
+}
+
+.skill-segment img {
+  width: 44px;
+  height: 44px;
+}
+
+.skill-segment h2 {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.skill-segment p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  text-align: justify;
+}
+
+/* Resume summary */
+.resume-summary {
+  width: 100%;
+  height: 700px;
+  margin-top: 120px;
+}
+
+.resume-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgb(24, 24, 24);
+  margin-bottom: 100px;
+}
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.education{
+  width: 47%;
+}
+.experience{
+  width: 47%;
+}
+.education-institute{
+  width: 100%;
+  height: 170px;
+  padding-right: 20px;
+}
+.education-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
+.education-institute-title{
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.study-duration{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(117, 117, 117);
+}
+.study-description{
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+} 
+.experience-headerins{
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
+.experience-status{
+  width: 100%;
+  height: 170px;
+  padding-right: 20px;
+}
+.experience-title{
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.job-duration{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(117, 117, 117);
+}
+.job-description{
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
 }
